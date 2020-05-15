@@ -10,8 +10,6 @@ Welcome to Web Design and Development - APSSDC's documentation!
    :maxdepth: 2
    :numbered:
    
-   Introduction to REACT
-   Introduction to Django.md
    flexbox.md
 
 
