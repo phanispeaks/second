@@ -52,3 +52,42 @@ We **start defining media queries with @media rule and later include CSS rules i
 2. print — for printers
 3. screen — for computer screens, tablets and, smart-phones
 4. speech — for screen readers that “read” the page out loud
+
+**For example, when I want to select only screens, I will set the screen keyword right after the @ media rule. I also must concatenate the rules with the “and” keyword:**
+
+
+```css
+@media screen and (max-width: 480px) {
+  .text {
+    font-size: 16px;
+  }
+}
+```
+
+## Breakpoints
+**Breakpoints are maybe the most common term you will hear and use. A breakpoint is a key to determine when to change the layout and adapt the new rules inside the media queries. Let’s go back to our example at the beginning:**
+
+```css
+@media (max-width: 480px) {
+  .text {
+    font-size: 16px;
+  }
+}
+```
+
+**Here, the breakpoint is 480px. Now the media query knows when to set or overwrite the new class. Basically, if the width of a device is smaller than 480px, the text class will be applied, otherwise, it won’t.**
+
+## Common Breakpoints: Is there a Standard Resolution?
+**One of the most commonly asked questions is “Which breakpoint should I use?”. There are a ton of devices on the market so we can’t and we shouldn’t define fixed breakpoints for each of them.**
+
+**That’s why we can’t say that there is a standard resolution for devices, but there are some commonly used breakpoints in daily programming. If you’re using a CSS framework (like Bootstrap, Bulma, etc.) you can also use their breakpoints.**
+
+**Now let’s see some common breakpoints for widths of devices:**
+
+* 320px — 480px: Mobile devices
+* 481px — 768px: iPads, Tablets
+* 769px — 1024px: Small screens, laptops
+* 1025px — 1200px: Desktops, large screens
+* 1201px and more —  Extra large screens, TV
+
+**As I said above, these breakpoints can differ and there is no standard exactly defined, but these are some commonly used ones.**
