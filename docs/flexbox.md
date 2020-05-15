@@ -31,3 +31,40 @@
 **There is also flex-direction: column-reverse. You can guess what it does:**
 
 ![](https://www.freecodecamp.org/news/content/images/2020/04/image-311.png)
+
+## Multiple Items
+**If you just keep adding items, flex will automatically resize them based on the relative size of all items - even if items were originally set to a height and width. In this example they were set to width=125px and height=125px but notice that they got squeezed:**
+
+![](https://www.freecodecamp.org/news/content/images/2020/04/image-306.png)
+
+## flex-wrap: wrap
+**If you want the items to "drop" to the next row add flex-wrap: wrap**
+
+![](https://www.freecodecamp.org/news/content/images/2020/04/image-307.png)
+
+## justify-content
+**It defines the alignment along the main axis. It helps distribute extra free space leftover when either all the flex items on a line are inflexible, or are flexible but have reached their maximum size. It also exerts some control over the alignment of items when they overflow the line.**
+
+### justify-content: flex-start
+
+![](https://www.freecodecamp.org/news/content/images/2020/04/image-285.png)
+
+### justify-content: space-between
+
+![](https://www.freecodecamp.org/news/content/images/2020/04/image-286.png)
+
+### justify-content: space-around
+
+![](https://www.freecodecamp.org/news/content/images/2020/04/image-287.png)
+
+### justify-content: space-evenly
+
+![](https://www.freecodecamp.org/news/content/images/2020/04/image-288.png)
+
+### justify-content: center
+
+![](https://www.freecodecamp.org/news/content/images/2020/04/image-289.png)
+
+### justify-content: flex-end
+
+![](https://www.freecodecamp.org/news/content/images/2020/04/image-290.png)
