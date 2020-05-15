@@ -14,4 +14,5 @@
     
 ### flex-direction: row
 **This is the default setting.**
+
 ![GitHub Logo](/images/logo.png)
