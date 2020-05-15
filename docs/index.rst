@@ -11,6 +11,7 @@ Welcome to Web Design and Development - APSSDC's documentation!
    :numbered:
    
    flexbox.md
+   MediaQueries.md
 
 
 
