@@ -15,4 +15,4 @@
 ### flex-direction: row
 **This is the default setting.**
 
-![GitHub Logo](/images/logo.png)
+![](https://www.freecodecamp.org/news/content/images/2020/04/image-259.png)
