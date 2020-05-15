@@ -16,3 +16,18 @@
 **This is the default setting.**
 
 ![](https://www.freecodecamp.org/news/content/images/2020/04/image-259.png)
+
+### flex-direction: row-reverse
+**But... row-reverse will place the first item at flex-end and invert the order of items:**
+
+![](https://www.freecodecamp.org/news/content/images/2020/04/image-305.png)
+
+### flex-direction: column
+**To make items flow down the column change the value of flex-direction to column:**
+
+![](https://www.freecodecamp.org/news/content/images/2020/04/image-260.png)
+
+### flex-direction: column-reverse
+**There is also flex-direction: column-reverse. You can guess what it does:**
+
+![](https://www.freecodecamp.org/news/content/images/2020/04/image-311.png)
